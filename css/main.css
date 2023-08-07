@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;1,300&display=swap");
+* {
+  font-family: "Kanit", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  background-color: rgb(252, 252, 252);
+}
+
+h1 {
+  font-size: 1.5em;
+  color: rgb(15, 14, 14);
+}
+
+h2 {
+  font-size: 1.5em;
+  color: rgb(15, 14, 14);
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.4em;
+}
+
+header img {
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+nav {
+  background-color: rgba(207, 207, 207, 0);
+  font-size: 1em;
+  background: size 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: solid 1px rgba(128, 128, 128, 0);
+}
+
+header img {
+  width: 100%;
+  height: auto;
+  margin: 0px;
+}
+
+header section img {
+  width: auto;
+  height: auto;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-inicio, .presentacion {
+  width: auto;
+  height: auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.presentacion {
+  background-color: rgba(208, 235, 88, 0.884);
+  margin: 30px 0px;
+}
+
+.speech {
+  text-align: center;
+  font-size: 1.3em;
+  line-height: 2.5em;
+}
+
+.img-inicio {
+  width: auto;
+  height: auto;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.inicio {
+  max-width: 100%;
+  height: auto;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,42 @@
+header img {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    }
+header section img{
+    width: auto;
+    height: auto;
+    margin:0;
+    justify-content: center;
+    align-items: center;
+}
+    .contenedor-inicio{
+        width: auto;
+        height: auto;
+        margin-bottom: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        }
+    .presentacion{
+        @extend .contenedor-inicio;
+        background-color: $bgInicio;
+        margin: 30px 0px;
+    }
+    .speech{
+        text-align: center;
+        font-size: $textSpeech;
+        line-height:2.5em;
+    }
+    .img-inicio{
+        width: auto;
+        height: auto;
+        margin:0;
+        justify-content: center;
+        align-items: center;
+    }
+    .inicio{
+        max-width: 100%;
+        height: auto;
+    }

@@ -1,0 +1,5 @@
+nav{
+    @include nav($mainColor,$textSm,size 100%,10px,10px,solid 1px $navBorder);
+ }
+
+

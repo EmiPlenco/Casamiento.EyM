@@ -1,0 +1,29 @@
+*{  
+   font-family: 'Kanit', sans-serif;
+   box-sizing: border-box;
+   }
+body{
+    font-family: $mainFont;
+    background-color: $white;
+ }
+ h1{
+    font-size: $textLg;
+    color:$keyColor;
+ }
+ h2{
+    font-size: $textMd;
+    color:$keyColor;
+ }
+ p{
+    font-size: $textSm;
+    line-height: 1.4em;
+    }
+header img {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    justify-content: center;
+    }
+.text-center{
+    text-align: center;
+    }
